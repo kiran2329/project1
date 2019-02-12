@@ -18,6 +18,7 @@ FILE *output;
 
 void error() {
 	char buf[1024];
+
 	strcpy(buf, bin_name);
 	strcat(buf, ": Error");
 	perror(buf);
