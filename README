@@ -1,0 +1,15 @@
+doddaka.1  README, 
+
+
+Build:
+make
+
+Run with default arguments:
+./logParse
+
+Check usage:
+./logParse -h
+
+Run with non-default input and output files:
+./logParse -i input.dat -o output.dat
+
